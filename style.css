@@ -1,0 +1,145 @@
+body{
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    background: #72A1BF 0% 0% no-repeat padding-box;
+    font: normal normal normal 14px/19px Segoe UI;
+    position: relative;
+}
+
+.home{
+    position: absolute;
+    top: 29px;
+    left: 32px;
+    width: 84px;
+    height: 42px;
+    background: #F2FAFF 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    cursor: pointer;
+    color: #A0A3A5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle1{
+    position: absolute;
+    top: 205px;
+    left: 392px;
+    width: 1137px;
+    height: 670px;
+    background: #074770 0% 0% no-repeat padding-box;
+    border-radius: 36px;
+}
+
+.row2{
+    display: flex;
+}
+
+.left-col{
+    position: absolute;
+    top: 356px;
+    left: 392px;
+    width: 523px;
+    height: 519px;
+    background: #F2FAFF 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 0px 36px;
+}
+
+.right-col{
+    position: absolute;
+    top: 356px;
+    left: 915px;
+    width: 614px;
+    height: 519px;
+    background-color: pink;
+    border-radius: 0px 0px 36px 0px;
+}
+
+
+.text1{
+    position: absolute;
+    top: 245px;
+    height: 19px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #A5C0D1;
+}
+
+.box1{
+    position: absolute;
+    top: 272px;
+    left: 428px;
+    width: 179px;
+    height: 42px;
+    background: #F2FAFF 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    border: none;
+}
+
+.button1{
+    position: absolute;
+    top: 264px;
+    left: 1288px;
+    width: 179px;
+    height: 42px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 21px;
+    opacity: 0.49;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.text2{
+    position: absolute;
+    top: 380px;
+    left: 428px;
+    width: 135px;
+    height: 19px;
+    text-align: left;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #123043;
+    text-transform: uppercase;
+    }
+
+.coords-info{
+    display: flex;
+    padding-right: 40px;
+    position: relative;
+    top: 50px;
+}
+
+ul{
+    list-style-type: none;
+}
+.col1{
+    flex-grow: 1;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #123043;
+}
+
+.col2, .col3{
+    color: #707070;
+    opacity: 0.3;
+}
+
+.button2{
+    position: absolute;
+    top: 794px;
+    left: 428px;
+    width: 445px;
+    height: 42px;
+    background: #C6D1D9 0% 0% no-repeat padding-box;
+    border-radius: 21px;
+    opacity: 1;
+    color: #838A8F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saveo</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script> -->
+</head>
+<body>
+    <div class="home" onclick="location.reload()">Home</div>
+    <div class="rectangle1"></div>
+    <div class="text1" style="left: 428px;">Location Name</div>
+    <div class="text1" style="left: 627px;">Enter Latitude</div>
+    <div class="text1" style="left: 767px;"> Enter Longitude</div>
+    <input class="box1" style="left: 428px; width: 179px;" id="location" placeholder="Location"></div>
+    <input class="box1" style="left: 627px; width: 120px;" id="lat" placeholder="Lat"></div>
+    <input class="box1" style="left: 767px; width: 120px;" id="long" placeholder="Long"></div>
+    <div class="button1" onclick="submit()">SUBMIT</div>
+    <div class="left-col">
+        <div class="coords-info">
+            <ul class="col1">
+                    <li>My co-ordinates</li>
+                    <li id="loc1">1)------</li>
+                    <li id="loc2">2)------</li>
+                    <li id="loc3">3)------</li>
+                    <li id="loc4">4)------</li>
+                    <li id="loc5">5)------</li>
+            </ul>
+            <ul class="col2">
+                    <li>DEFAULT</li>
+                    <li id="lat1">------</li>
+                    <li id="lat2">------</li>
+                    <li id="lat3">------</li>
+                    <li id="lat4">------</li>
+                    <li id="lat5">------</li>
+            </ul>
+            <ul class="col3">
+                    <li>DEFAULT</li>
+                    <li id="lon1">------</li>
+                    <li id="lon2">------</li>
+                    <li id="lon3">------</li>
+                    <li id="lon4">------</li>
+                    <li id="lon5">------</li>
+            </ul>
+        </div>
+    </div>
+    <div class="right-col" id="map"></div>
+    <div class="text2">ALL CO-ORDINATES</div>
+    <div class="button2" onclick="plot()">Show Route</div>
+    
+
+
+    <div style="position: absolute; bottom: 10px; right: 10px; color: white">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+
+    <script src="script.js"></script>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBogmbyFQjD6WKhTRXZqrpZmpn0Wgx_yNE&callback=initMap">
+    </script>
+    
+
+</body>
+</html>
+
+
