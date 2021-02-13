@@ -79,19 +79,29 @@ body{
     border: none;
 }
 
-.button1{
+#button1{
     position: absolute;
     top: 264px;
     left: 1288px;
     width: 179px;
-    height: 42px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    height: 42px;    
     border-radius: 21px;
-    opacity: 0.49;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.submit-btn{
+    opacity: 0.49;
+}
+
+.add-btn{
+    opacity: 1;
+    /* background: #FFFFFF 0% 0% no-repeat padding-box; */
 }
 
 .text2{

@@ -41,7 +41,17 @@ function submit(){
         const btn2 = document.querySelector('.button2');
         btn2.style.backgroundColor = "#074770";
         btn2.style.color = "#ffffff";
-        btn2.style.cursor = "pointer";
+        btn2.style.cursor = "pointer";        
+
+        const btn1 = document.querySelector('#button1');
+        btn1.classList.add('submit-btn');
+        btn1.classList.remove('add-btn');
+        btn1.innerHTML = 'Submit';
+
+        document.querySelector('#location').value="";
+        document.querySelector('#lat').value="";
+        document.querySelector('#long').value="";
+
         updateInfo(location, lat, long);
     }
 }
@@ -83,6 +93,22 @@ function plot(){
     });
     
     line.setMap(map);
+}
+
+function checkFields(){
+    const location = document.querySelector('#location').value;
+    const lat = document.querySelector('#lat').value;
+    const long = document.querySelector('#long').value;
+    btn1 = document.querySelector('#button1');
+    if(location && lat && long){
+        btn1.classList.add('add-btn');
+        btn1.classList.remove('submit-btn');
+        btn1.innerHTML = 'Add';
+    }else{
+        btn1.classList.add('submit-btn');
+        btn1.classList.remove('add-btn');
+        btn1.innerHTML = 'Submit';
+    }
 }
 
 
